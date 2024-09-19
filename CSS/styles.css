@@ -90,7 +90,7 @@ main{
 }
 
 .tel-link{
-	background-color: ##7179f9;
+	background-color: #7179f9;
 	padding: 2%;
 	margin: 0 auto; 
 	width: 80%; 
@@ -141,7 +141,7 @@ footerp a{
 	border-width: 15px;
 	border-style: solid;
 	border-radius: 15px;
-	border-color: #f60788;
-	background-color: #f60788;
+	border-color: #4d30fc;
+	background-color: #4d30fc;
 	
 }
