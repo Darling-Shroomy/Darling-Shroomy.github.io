@@ -23,9 +23,9 @@ img{
 /*moblie Veiwpoint*/
 /* Style rule for header */
 header{
-	text-align: center;
 	position: -webkit-sticky;
 	position: sticky;
+	text-align: center;
 	top: 0; 
 	background-color: #7179f9;
 	height: 190px;
@@ -35,6 +35,8 @@ header{
 
 /* stlye rules for navagation */ 
 nav{
+	position: -webkit-sticky;
+	position: sticky;
 	padding: 1%;
 	margin-bottom: 1%;
 	background-color: #000;
@@ -42,16 +44,22 @@ nav{
 }	
 
 nav ul{
+	position: -webkit-sticky;
+	position: sticky;
 	list-style-type: none;
 	text-align: center;
 }
 
 nav li{
+	position: -webkit-sticky;
+	position: sticky;
 	font-size: 1.5em;
-	border-radius: 300%;
+	border-radius: 100%;
 }
 
 nav li:first-child{
+	position: -webkit-sticky;
+	position: sticky;
 	border-top: none;
 }
 
@@ -59,7 +67,7 @@ nav li:first-child{
 nav li a{
 	display: block;
 	color: #f60788;
-	padding: .5em 1em;
+	padding: .90em 1em;
 	text-decoration: none;
 	font-family: 'Gloria Hallelujah', Arial, Sans-serif;
 }
@@ -130,7 +138,10 @@ footerp a{
 
 
 .locked_frog {
-	border-width: 50px;
-	border-color: #f9f9f9;
-	border-radius: 70px;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #f60788;
+	background-color: #f60788;
+	
 }
