@@ -40,7 +40,7 @@ nav{
 	padding: 1%;
 	margin-bottom: 1%;
 	background-color: #000;
-	border-radius: 100%
+
 }	
 
 nav ul{
@@ -54,7 +54,7 @@ nav li{
 	position: -webkit-sticky;
 	position: sticky;
 	font-size: 1.5em;
-	border-radius: 100%;
+	
 }
 
 nav li:first-child{
@@ -63,10 +63,16 @@ nav li:first-child{
 	border-top: none;
 }
 
+nav li a:hover{
+        color: #fffff;
+        background-color: #4d31fc;;
+		border-radius: 10%;
+    }
+
 
 nav li a{
 	display: block;
-	color: #f60788;
+	color:  #4d30fc;
 	padding: .90em 1em;
 	text-decoration: none;
 	font-family: 'Gloria Hallelujah', Arial, Sans-serif;
