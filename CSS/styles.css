@@ -23,20 +23,21 @@ img{
 /*moblie Veiwpoint*/
 /* Style rule for header */
 header{
-	position: -webkit-sticky;
-	position: sticky;
+	position: static;
 	text-align: center;
 	top: 0; 
 	background-color: #7179f9;
 	height: 190px;
 	font-family: "Gloria Hallelujah";
+	padding: 1%;
+	border: 3;
 }
 
 
 /* stlye rules for navagation */ 
 nav{
-	position: -webkit-sticky;
-	position: sticky;
+	position: static;
+	position: static;
 	padding: 1%;
 	margin-bottom: 1%;
 	background-color: #000;
@@ -44,30 +45,37 @@ nav{
 }	
 
 nav ul{
-	position: -webkit-sticky;
-	position: sticky;
+	position: static;
+	position: static;
 	list-style-type: none;
 	text-align: center;
 }
 
 nav li{
-	position: -webkit-sticky;
-	position: sticky;
+	position: static;
+	position: static;
 	font-size: 1.5em;
 	
 }
 
 nav li:first-child{
-	position: -webkit-sticky;
-	position: sticky;
+	position: static;
+	position: static;
 	border-top: none;
 }
 
 nav li a:hover{
         color: #fffff;
-        background-color: #4d31fc;;
+        background-color: #1d1163;
 		border-radius: 10%;
     }
+	frame{
+		opacity: .5;
+	}
+
+	frame:hover{
+		opacity: 1;
+	}
 
 
 nav li a{
@@ -242,7 +250,20 @@ footerp a{
 	color: #fff;
 }
 #john {
-	
+	padding: right;
+	align-items: right;
+	border-width: .5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #000;
+	background-color: #000;
+	font-size: 3.40em;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+}
+#tim {
 	padding: right;
 	align-items: right;
 	border-width: .5px;
