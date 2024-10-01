@@ -69,12 +69,12 @@ nav li a:hover{
         background-color: #1d1163;
 		border-radius: 10%;
     }
-	frame{
-		opacity: .5;
+	.frame{
+		opacity: 1;
 	}
 
-	frame:hover{
-		opacity: 1;
+	.frame:hover{
+		opacity: .9;
 	}
 
 
@@ -159,121 +159,48 @@ footerp a{
 	background-color: #4d30fc;
 	
 }
-#go {
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.shoe, .pizza{
+	padding: right;
+	text-align: right;
+	border-width: .5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #000;
+	background-color: #000;
+	font-size: 3.40em;
+	text-align: right;
+	list-style-type: none;
+	text-decoration
 	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
+
 }
-#home {
+
+.pizza{
+	text-align: left;
 	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
-}
-#billy {
+	animation: cheese 600s linear infinite;
 	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
 }
-#conn {
-	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
+
+.shoe{
+	animation: sock 600s linear infinite;
 }
-#gray {
-	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
+
+@keyframes cheese{
+	0% {transform: translateX(0);}
+	/*50%{transform: rotate(180deg);}
+	100%{transform: rotate(360deg);}*/
+	100% {transform: translate(500%);}		
 }
-#santa {
-	
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
+
+@keyframes sock{
+	0% {transform: translateX(0);}
+	100% {transform: translateX(-500%);}		
 }
-#john {
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
-}
-#tim {
-	padding: right;
-	align-items: right;
-	border-width: .5px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #000;
-	background-color: #000;
-	font-size: 3.40em;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	color: #fff;
-}
+
