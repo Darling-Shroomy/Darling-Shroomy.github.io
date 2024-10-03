@@ -184,12 +184,12 @@ a{
 .pizza{
 	text-align: left;
 	
-	animation: cheese 600s linear infinite;
+	animation: cheese 300s linear infinite;
 	
 }
 
 .shoe{
-	animation: sock 600s linear infinite;
+	animation: sock 300s linear infinite;
 }
 
 @keyframes cheese{
