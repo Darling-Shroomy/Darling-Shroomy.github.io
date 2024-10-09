@@ -13,7 +13,7 @@ body, header, nav, footer, main, h1, div, img, ul{
 
 /* Style rules for body and images */
 body{
-	background-color: #7179f9; 	
+	background-color: /*#7179f9*/ #595f9c; 	
 }
 img{
 	max-width: 100%;
@@ -26,22 +26,27 @@ header{
 	position: static;
 	text-align: center;
 	top: 0; 
-	background-color: #7179f9;
+	background-color: #595f9c;
 	height: 190px;
 	font-family: "Gloria Hallelujah";
 	padding: 1%;
 	border: 3;
 }
+h1{
+	font-size: 5em;
+}
+
 
 
 /* stlye rules for navagation */ 
 nav{
 	position: static;
 	position: static;
-	padding: 1%;
+	padding: 0.5%;
 	margin-bottom: 1%;
-	background-color: #000;
-
+	background-color: #121317;
+	color: #989ab3;
+	
 }	
 
 nav ul{
@@ -58,6 +63,10 @@ nav li{
 	
 }
 
+nav li:nth-child(even){
+	background-color: #242636; 
+}
+
 nav li:first-child{
 	position: static;
 	position: static;
@@ -65,9 +74,8 @@ nav li:first-child{
 }
 
 nav li a:hover{
-        color: #fffff;
-        background-color: #1d1163;
-		border-radius: 10%;
+		opacity: .5;
+		
     }
 	.frame{
 		opacity: 1;
@@ -80,7 +88,7 @@ nav li a:hover{
 
 nav li a{
 	display: block;
-	color:  #4d30fc;
+	color:  #6b6786;
 	padding: .90em 1em;
 	text-decoration: none;
 	font-family: 'Gloria Hallelujah', Arial, Sans-serif;
@@ -155,8 +163,8 @@ footerp a{
 	border-width: 15px;
 	border-style: solid;
 	border-radius: 15px;
-	border-color: #4d30fc;
-	background-color: #4d30fc;
+	border-color: #3f4366;
+	background-color: #3f4366;
 	
 }
 
@@ -184,12 +192,12 @@ a{
 .pizza{
 	text-align: left;
 	
-	animation: cheese 300s linear infinite;
+	animation: cheese 600s linear infinite;
 	
 }
 
 .shoe{
-	animation: sock 300s linear infinite;
+	animation: sock 600s linear infinite;
 }
 
 @keyframes cheese{
