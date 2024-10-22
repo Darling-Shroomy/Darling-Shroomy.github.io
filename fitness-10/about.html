@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--thos website template was created by Sam"-->
+<html lang="en">
+<head>
+	<title>Forward Fitness Club</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" 
+	href="css/styles.css"
+	type="text/css">
+	<meta name="veiwpoint" content=" width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html"> Home</a></li> 
+				<a href="about.html">About us</a></li>     
+				<a href="classes.html">Classes</a></li> 
+				<a href="nutriton.html">Nutriton</a></li> 
+				<a href="contact.html">Contact us</a></li> 
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+		</nav>
+	
+	<!--use the header area for the website name or logo-->
+
+	<header id="ffc-logo">
+		<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+	</header>
+	<!--Use the nav area to add hyperlinks to other pages within the website-->
+	<nav class="tablet-desktop">
+		<ul>
+	<li><a href="index.html"> Home</a></li> 
+	<li><a href="about.html">About us</a></li>     
+	<li><a href="Classes.html">Classes</a></li> 
+	<li><a href="Nutriton.html">Nutriton</a></li> 
+	<li><a href="contact.html">Contact us</a></li> 
+	</ul>
+	</nav>
+	
+	<!-- use the main area to add the main content of the page-->
+	<main>
+		<video controls poster="images/hero-image.jpg">
+			<source src="media/ffc_video.mp4" type="video/mp4">
+			<source src="media/ffc_video.webm" type="video/webm">
+			<track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
+			<track src="media/descriptions.vtt" kind="descriptions" srclang="en" label=" English Descriptions">
+			<p>your browser does not support the video equipment.</p>
+		</video>	
+	
+	<div id="contact">
+	
+		<h2>Ready to get started? Contact us today</h2>
+		<h4>(814) 555-9608<h4>
+		<h4>Email us:<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></h4>
+		<h4>Visit us at: 1275 Channel Center street, Boston, MA 02210</h4>
+
+	
+	<section id= "weights">
+	
+		<h1>Weights</h1>
+		<img class="round" src="images/people-with-weights.jpg" alt="Two people working out with a weight in each hand">
+		<p>Our facility includes a weight training area with several option. Buld lean mussle with weights and improe your core with weight training.</p>
+		<ul class="tablet-desktop">
+			<li>Dumbells</li>
+			<li>Kettle bells</li>
+			<li>Barbells</li>
+		</ul>
+	</section>
+	
+	
+	<section id="cardio">
+	
+		<h1>Cardio</h1>
+		<img class="round" src="images/people-workingout-machines.jpg" alt="Cardio Equipment">
+	<p>Burn fat through cardio workouts. Experts recomend 150 minuties of cardio each week. We have several equipment choices for your workout.</p>
+		<ul class="tablet-desktop">
+				<li>Treadmills</li>
+				<li>Elliptial Machines</li>
+				<li>Exersize bikes</li>
+			</ul>
+			
+	</section>
+	<section id="training"> 
+		
+		<h1>Personal Training</h1>
+		<img class="round" src="images/personal-trainer.jpg" alt="Personal Training">
+		<p>our sertivied personal trainers work with you to help you obtain your fitness goals and trck your progess. Personal traing has many benifits.</p>
+			<ul class="tablet-desktop">
+				<li>Accountability</li>
+				<li>Personalised Program</li>
+				<li>Consistent Support</li>
+			</ul>
+		
+		</section>
+	
+	
+	
+	<section id="exercises" class="tablet-desktop">
+	
+		<h1>Common Exercises</h1>
+		<p>The following are common exercises that we encourage our clients to do as a part of their daily exercise routines. </p>
+		<dl>
+				<dt>Burpee</dt>
+				<dd>Burpees are great, full body exercises, a pushup followed by a leap in the air. Doing several burpees in a row can be tiring, but this versatile exercise may be worth the payoff, especially if you're looking for a way to build strength and endurance, while burning calories, and boosting your cardio fitness.<span class="viewex" onclick="burpees()">View Example</span></dd>
+				
+				<dt>Planks</dt>
+				<dd>Begin by laying facedown on the floor. Then, lift yourself up, pressing your forearms into the ground and keeping your knees on the ground. Align your elbows directly underneath your shoulders, and tuck your booty in, so your body forms a straight line from your head to your knees. Continue to engage your core.<span class="viewex" onclick="plank()">View Example</span></dd>
+				
+				<dt>Mountain Climber</dt>
+				<dd>Performed from a plank position, you'll alternate bringing one knee to your chest, then kick back out, speeding up each time until you're "running" against the floor. While the move sounds simple, mountain climbers work your entire body and raise your heart rate.<span class="viewex" onclick="mountain()">View Example</span></dd>
+				
+		</dl>
+		
+		<video controls id="example">
+			<source id="vid-src" src="vid" type="video/mp4">
+			<track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+			<p>Your browser does not support</p>
+		</video>
+
+
+		<p>For more information about how to stay active visit <a href="Https://health.gov/pcsfn"
+		target=" blank" class="external link">U.S. Department of Health and Human Services</a>.</p>
+		
+	</section>
+	</main>
+	
+	<!-- use the footer area to add webpage content of the page-->
+	<footer>
+		<p>&copy; Copyright 2024. All Rights Reserved. </p>
+		<p><a href="mailto:forwardfitness@club.net">
+		<p>forwardfitness@club.net</p>
+	</footer>
+
+</div>
+<script src="scripts/script.js">
+</script>
+</body>
+</html>
